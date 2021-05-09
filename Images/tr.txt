@@ -1,0 +1,11 @@
+power = 1.0
+max = 30.9
+min = 1.7
+
+power = 2.0
+max = 50.9
+min = 1.7
+
+power = 5.0
+max = 114.7
+min = 1.7

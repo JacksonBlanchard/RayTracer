@@ -1,0 +1,10 @@
+Advanced Assignment k-d tree
+
+For this assignment I created a k-d tree data structure for my ray tracer to use. I set the 
+maximum depth of the tree to be 16 and the maximum number of objects in a leaf node to be 64. 
+It is worth noting that this image was generated with 16 samples per pixel, which keeps the 
+rendering time higher than if it only took a single sample per pixel. It took 3.366 seconds 
+to generate the k-d tree and 240.238 seconds (~4 minutes) to render the image. Rendering the 
+image without a k-d tree took too long to even finish even with only 1 sample per pixel. Using 
+a lower resolution bunny with a smaller tri count was doable, but also took an unreasonable 
+amount of time.

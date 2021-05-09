@@ -1,0 +1,17 @@
+Ray Tracing in One Weekend
+https://raytracing.github.io/books/RayTracingInOneWeekend.html
+
+PPM File format
+http://netpbm.sourceforge.net/doc/ppm.html
+
+SFML Image Class
+https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Image.php
+
+Ray Tracer reference on GitHub
+https://github.com/marczych/RayTracer/tree/master/src
+
+Spherical Mapping
+http://www.raytracerchallenge.com/bonus/texture-mapping.html
+
+
+

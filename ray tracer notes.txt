@@ -1,0 +1,34 @@
+object oriented design for ray tracer
+
+auxiliary classes:
+-point
+-vector
+-ray
+-matrix
+-color (must be vec3 at least)
+
+
+world:
+-> contains list of objects
+- addObject();
+- spawn(ray); or spawnRay();
+
+object class (abstract): contains transformation matrix (optionally?)
+- transform(matrix);
+- intersect(ray); return omega, distance along ray to intersection
+- has material that describes reflection, etc. (for now just color)
+-> sphere: radius
+-> triangle: px, py, pz
+
+Camera:
+-lookat
+-position
+-up vector
+-has its own transformation matrix called view matrix
+-snap(world); take a picture of the world
+ -> take all objects and convert to camera coords (pass view transform)
+-view plane: 2d array of floats, irradiance values for each pixel (colors)
+             height and width in world coords
+-focal distance, from viewpoint to view plane
+corner point (-w/2, h/2, f)
+corner pixel center (-w/2 + half pixel, h/2 - half pixel, f)
